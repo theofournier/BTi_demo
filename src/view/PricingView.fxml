@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="502.0" style="-fx-background-color: #3D4956 #3D4956 #3D4956 #3D4956; -fx-border-color: orange;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="202.0" layoutY="33.0" prefHeight="54.0" prefWidth="124.0" style="-fx-background-color: #e8A004 #e8A004;" text="PRICING" textFill="WHITE" AnchorPane.leftAnchor="202.0">
+         <font>
+            <Font name="Calibri Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="140.0" prefHeight="29.0" prefWidth="78.0" text="FROM:" textFill="#fffdfd" AnchorPane.leftAnchor="64.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="192.0" prefHeight="29.0" prefWidth="127.0" text="ETF ticker:" textFill="#fffdfd" AnchorPane.leftAnchor="24.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="142.0" prefHeight="29.0" prefWidth="78.0" text="QTY:" textFill="#fffdfd" AnchorPane.rightAnchor="98.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="192.0" prefHeight="29.0" prefWidth="78.0" text="WAY:" textFill="#fffdfd" AnchorPane.rightAnchor="98.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="146.0" prefHeight="17.0" prefWidth="57.0" text="label 1" />
+      <Label fx:id="button_label4" layoutX="420.0" layoutY="198.0" prefHeight="17.0" prefWidth="57.0" text="label 4" AnchorPane.rightAnchor="25.0" />
+      <Label fx:id="button_label2" layoutX="418.0" layoutY="149.0" prefHeight="17.0" prefWidth="57.0" text="label 2" AnchorPane.rightAnchor="27.0" />
+      <Label fx:id="button_label3" layoutX="156.0" layoutY="198.0" prefHeight="17.0" prefWidth="57.0" text="label 3" />
+      <Button fx:id="Button_plus_bid" layoutX="205.0" layoutY="551.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="+">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Button_plus_ask" layoutX="207.0" layoutY="602.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="+">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Button_minus_ask" layoutX="126.0" layoutY="603.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="-">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Button_minus_bid" layoutX="126.0" layoutY="551.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" text="-">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="bid_margin" fill="WHITE" layoutX="171.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="29.518402099609375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="ask_margin" fill="WHITE" layoutX="171.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="29.518402099609375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="275.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BID" wrappingWidth="49.57237001128658">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="276.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASK" wrappingWidth="49.57237001128658">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="Counterpartie_price" layoutX="42.0" layoutY="284.0" prefHeight="54.0" prefWidth="165.0" style="-fx-background-color: #5F9EA0#5F9EA0;" text=" 7,1234/7,1345">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="231.0" layoutY="298.0" text="FROM :" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="counterpartie_used" layoutX="313.0" layoutY="300.0" text="Commerzbank" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Counterpartie_price1" layoutX="102.0" layoutY="384.0" prefHeight="133.0" prefWidth="202.0" style="-fx-background-color: #5F9EA0#5F9EA0;" text="   7,1234/7,1345  " textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="438.0" prefHeight="40.0" prefWidth="76.0" text="PRICE:" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
